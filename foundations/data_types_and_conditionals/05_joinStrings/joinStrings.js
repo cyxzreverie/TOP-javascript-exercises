@@ -4,12 +4,17 @@
  This year: 1965
  Birth year: 1947
 
- The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
+ The greeting should read: "Hello! My name is Paul Lee and I am 22 years old."
 */
 
 // Add your code right below, good luck!
-
-
+let firstName = "Paul";
+let lastName = "Lee";
+let thisYear = 2026;
+let birthYear = 2004;
+let age = thisYear - birthYear;
+let fullName = `${firstName} ${lastName}`
+let greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
 
 
 
